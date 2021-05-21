@@ -19,6 +19,13 @@ public class Actors {
     public Actors(int i, String franky) {
     }
 
+    @Override
+    public String toString(){
+        return "Actors{"+
+                "id=" + id +
+                ", typeOfActors='" + typesOfActors + '\'' +
+                '}';
+    }
 
     public void setId(Long id){
         this.id = id;
